@@ -23,13 +23,25 @@ class _ArticleViewState extends State<ArticleView> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              "Flutter",
+              "Daily",
               style:
               TextStyle(color: Colors.black87, fontWeight: FontWeight.w600),
             ),
             Text(
-              "News",
-              style: TextStyle(color: Colors.blue, fontWeight: FontWeight.w600),
+              "N",
+              style: TextStyle(color: Colors.blue, fontWeight: FontWeight.w700,fontSize: 24),
+            ),
+            Text(
+              "e",
+              style: TextStyle(color: Colors.red, fontWeight: FontWeight.w700,fontSize: 24),
+            ),
+            Text(
+              "w",
+              style: TextStyle(color:Colors.purple, fontWeight: FontWeight.w700,fontSize: 24),
+            ),
+            Text(
+              "s",
+              style: TextStyle(color: Colors.green, fontWeight: FontWeight.w700,fontSize: 24),
             )
           ],
         ),
