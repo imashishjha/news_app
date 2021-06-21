@@ -1,6 +1,6 @@
 import 'package:http/http.dart' as http;
 import 'package:news_app/models/article.dart';
-import 'package:news_app/secret.dart';
+import 'package:news_app/key/secret.dart';
 import 'dart:convert';
 
 
